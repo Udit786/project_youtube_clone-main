@@ -1,6 +1,6 @@
 import React from 'react'
-import signin from '../assets/signin.svg'
-import signup from '../assets/signup.svg'
+import signin from '../assets/video-svgrepo-com.svg'
+import signup from '../assets/movie-svgrepo-com.svg'
 import './Login.css'
 
 import { Link, useNavigate } from 'react-router-dom';
