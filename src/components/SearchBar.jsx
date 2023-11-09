@@ -48,11 +48,10 @@ const SearchBar = () => {
           alignItems: 'center',
           justifyContent: 'center',
           borderRadius: '50%',
-          border: '2px solid #e74c3c', // Red outer border
+          border: '2px solid #e74c3c',
           cursor: 'pointer',
         }}
       >
-        {/* You can place an icon or text inside this div for the profile icon */}
       </div>
       <ProfileDropdown />
     </div>

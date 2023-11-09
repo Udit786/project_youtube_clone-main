@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './ProfileDropdown.css';
+import UserDropdown from './ProfileDropdown'; // Import the UserDropdown component
 
 const ProfileDropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +17,7 @@ const ProfileDropdown = () => {
       {isOpen && (
         <div className="dropdown-content">
           <ul>
-            <li>Profile</li>
+            <li><a href="/profile">Profile</a></li> {/* Redirect to the home page */}
             <li>My Videos</li>
             <li>Settings</li>
             <li>Sign Out</li>

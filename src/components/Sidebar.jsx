@@ -45,7 +45,7 @@ const Categories = ({ selectedCategory, setSelectedCategory }) => (
       outline: "none",
     }} onClick={handleclick} className="category-btn"
     >
-      <UploadFile style={{backgroundColor: "red"}}></UploadFile>
+      <UploadFile></UploadFile>
       <span style={{ marginLeft: "15px" }}>
         Upload
       </span>

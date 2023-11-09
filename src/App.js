@@ -3,6 +3,7 @@ import { Box } from '@mui/material';
 import Uploader from "./components/Uploader";
 import Login from "./components/Login";
 import { ChannelDetail, VideoDetail, SearchFeed, Navbar, Feed } from './components';
+import UserProfile from "./components/UserProfile";
 
 const App = () => (
   <BrowserRouter>
@@ -15,7 +16,7 @@ const App = () => (
         <Route path='/channel/:id' element={<div><Navbar /><ChannelDetail /></div>} />
         <Route path='/search/:searchTerm' element={<div><Navbar /><SearchFeed /></div>} />
         <Route path='/upload' element={<div><Navbar /><Uploader /></div>} />
-
+        <Route path='/profile' element={<UserProfile />} />
       </Routes>
     </Box>
   </BrowserRouter>

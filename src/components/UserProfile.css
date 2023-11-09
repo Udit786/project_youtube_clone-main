@@ -1,0 +1,68 @@
+/* Updated CSS for a neat and amazing profile card */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: black;
+  }
+  
+  .upc {
+    width: 800px; /* Adjusted the width for a more compact card */
+    height: 500px;
+    border-radius: 10px; /* Increased border radius for a smoother look */
+    padding: 20px;
+    background: white; /* Changed the background color to white */
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Added a subtle box shadow */
+    border: 2px solid rgb(214, 0, 0); 
+  }
+  
+  .gradiant {
+    background-image: linear-gradient(rgb(214, 0, 0), rgb(214, 0, 0));
+    height: 125px;
+    border-radius: 10px 10px 0 0; /* Matched border radius with the card */
+  }
+  
+  .profile-down img {
+    height: 280px;
+    border-radius: 100%; /* Made the border radius circular */
+    margin-top: -75px;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-title {
+    font-size: 28px; /* Adjusted font size for a more elegant look */
+    font-weight: 600;
+    background-color: white;
+    margin-top: 10px; /* Added some top margin for spacing */
+    font-style: normal;
+  }
+  
+  .profile-description {
+    padding: 20px;
+    font-size: 20px;
+    background-color: white;
+    margin-top: 10px; /* Added some top margin for spacing */
+  }
+  
+  .profile-button {
+    font-size: 18px; /* Increased font size for the button */
+    background: rgb(214, 0, 0);
+    color: white; /* Changed text color to white for better contrast */
+    margin: 20px 0; /* Adjusted margin for button positioning */
+    padding: 10px 20px; /* Increased padding for a more prominent button */
+    border-radius: 25px; /* Rounded button corners */
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+    color: white; 
+  }
+  
+  .profile-button:hover {
+    background: #ff0000; /* Change button color on hover */
+  }
+  
